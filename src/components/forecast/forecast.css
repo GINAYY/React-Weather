@@ -1,0 +1,74 @@
+.title{
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.daily-item{
+    background-color: antiquewhite;
+    height: 50px;
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+.daily-item:hover {
+    background-color: #e0e0e0; /* 悬停时背景色变化 */
+    transform: translateY(-2px); /* 轻微上移效果 */
+}
+
+.icon-small{
+    width: 45px;
+   
+}
+
+.daily-item.day{
+    cursor: inherit;
+    color: black;
+    flex: 1 1;
+    font-weight: 600;
+    margin-left: 15px;
+     
+}
+
+.description{
+    flex: 1 1;
+    text-align: right;
+    margin-left: 15px;
+    cursor: inherit;
+}
+
+.min-max{
+    color: black;
+
+}
+
+.daily-details-grid{
+    grid-row-gap: 0;
+    grid-column-gap: 15px;
+    -webkit-column-gap: 15px;
+    column-gap: 15px;
+    display: grid;
+    flex: 1 1;
+    grid-template-columns: auto auto;
+    padding: 5px 15px;
+    row-gap: 0;
+}
+
+.daily-details-grid-item{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.daily-details-grid-item label:first-child {
+    color: #757575;
+}
+  
+.daily-details-grid-item label:last-child {
+    color: #212121;
+}
