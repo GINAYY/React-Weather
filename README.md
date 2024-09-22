@@ -14,27 +14,6 @@ npm start
 
 ```
 
-## Features
-
-The app includes the following features:
-
-- Displays current weather conditions for a selected city.
-- Provides a 5-day forecast for the selected city.
-- Allows users to search for cities using a search bar.
-- Uses the OpenWeatherMap API to fetch weather data.
-- Utilizes React hooks for state management and side effects.
-- Implements error handling for API requests.
-- Uses CSS for styling and layout.
-
-## Usage
-
-To use the app, follow these steps:
-
-1. Open the app in your web browser.
-2. Enter a city name in the search bar.
-3. Click the search button to fetch the weather data for the selected city.
-4. View the current weather conditions and 5-day forecast for the selected city.
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or open issues for discussion.
@@ -58,15 +37,15 @@ npm install react-select-async-paginate
 ## API Resources
 
 https://rapidapi.com/wirefreethought/api/geodb-cities/playground/apiendpoint_b648c05d-eef2-429f-a25a-1f3a743d8a3d
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](D:\coding\code\react\react-weather-app\image.png)
+![alt text](D:\coding\code\react\react-weather-app\image-1.png)
 https://openweathermap.org/current
 https://openweathermap.org/forecast5
 https://openweathermap.org/price#weather
-![alt text](image-2.png)
+![alt text](D:\coding\code\react\react-weather-app\image-2.png)
 https://home.openweathermap.org/api_keys
-![alt text](image-3.png)
+![alt text](D:\coding\code\react\react-weather-app\image-3.png)
 
 ## Final Output
-![alt text](image-4.png)
+![alt text](D:\coding\code\react\react-weather-app\image-4.png)
 
