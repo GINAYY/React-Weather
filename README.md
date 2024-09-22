@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# React Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The React Weather App is a project created using React to display current weather conditions and forecasts.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get the app running on your local machine, follow these steps:
 
-### `npm start`
+```bash
+npx create-react-app react-weather-app
+cd react-weather-app
+npm start  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+The app includes the following features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Displays current weather conditions for a selected city.
+- Provides a 5-day forecast for the selected city.
+- Allows users to search for cities using a search bar.
+- Uses the OpenWeatherMap API to fetch weather data.
+- Utilizes React hooks for state management and side effects.
+- Implements error handling for API requests.
+- Uses CSS for styling and layout.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To use the app, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Open the app in your web browser.
+2. Enter a city name in the search bar.
+3. Click the search button to fetch the weather data for the selected city.
+4. View the current weather conditions and 5-day forecast for the selected city.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
+Contributions are welcome! Please feel free to submit pull requests or open issues for discussion.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To enhance the functionality of the app, we've installed the following dependencies：
 
-## Learn More
+react-accessible-accordion: For accessible and customizable accordion components.
+react-select-async-paginate: For creating searchable, asynchronous, and paginated dropdown menus.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm i react-accessible-accordion
+npm install react-select-async-paginate   
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## API Resources
 
-### Code Splitting
+https://rapidapi.com/wirefreethought/api/geodb-cities/playground/apiendpoint_b648c05d-eef2-429f-a25a-1f3a743d8a3d
+![alt text](image.png)
+![alt text](image-1.png)
+https://openweathermap.org/current
+https://openweathermap.org/forecast5
+https://openweathermap.org/price#weather
+![alt text](image-2.png)
+https://home.openweathermap.org/api_keys
+![alt text](image-3.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Final Output
+![alt text](image-4.png)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
