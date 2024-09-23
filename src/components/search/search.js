@@ -13,6 +13,13 @@ const Search = ({onSearchChange}) =>{
       `${GEO_API_URL}/cities?minPopulation=1000000&namePrefix=${inputValue}`,
       geoApiOptions
     )
+    /*
+    fetch函数用于发送HTTP请求。在这里，它发送一个GET请求到地理API。
+     GEO_API_URL是地理API的基础URL。
+    ?minPopulation=1000000&namePrefix=${inputValue}是查询参数，用于过滤和搜索城市。
+    minPopulation=1000000表示只返回人口超过100万的城市，
+    namePrefix=${inputValue}表示只返回名称以用户输入的城市名称前缀开头的城市。
+    */
       .then((response) => response.json())
       .then((response) => {
         return {
@@ -47,3 +54,24 @@ const Search = ({onSearchChange}) =>{
 };
 
 export default Search;
+
+
+
+/*
+fetch函数返回一个Promise对象，这是一个特殊的对象，代表了一个异步操作的最终完成（或失败）及其结果值。Promise对象有三种状态：
+
+pending：初始状态，既不是成功，也不是失败状态。
+fulfilled：意味着操作成功完成。
+rejected：意味着操作失败。
+fetch函数发送一个网络请求，并返回一个Promise对象，这个Promise对象在请求成功完成时会被解析（resolve），在请求失败时会被拒绝（reject）。
+
+.then方法是Promise对象的一个方法，用于指定当Promise对象被解析（resolve）时要执行的回调函数。.then方法可以链式调用，以便在Promise对象被解析后执行一系列操作。
+
+
+fetch('https://api.example.com/data')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error:', error));
+
+
+*/
