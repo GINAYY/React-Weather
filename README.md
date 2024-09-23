@@ -37,7 +37,7 @@ npm install react-select-async-paginate
 ## API Resources
 
 https://rapidapi.com/wirefreethought/api/geodb-cities/playground/apiendpoint_b648c05d-eef2-429f-a25a-1f3a743d8a3d
-![alt text](D:\coding\code\react\react-weather-app\image.png)
+![alt text](D:\coding\code\react\react-weather-app\src\image-1.png)
 ![alt text](D:\coding\code\react\react-weather-app\image-1.png)
 https://openweathermap.org/current
 https://openweathermap.org/forecast5
@@ -48,4 +48,4 @@ https://home.openweathermap.org/api_keys
 
 ## Final Output
 ![alt text](D:\coding\code\react\react-weather-app\image-4.png)
-
+ localhost:3000
