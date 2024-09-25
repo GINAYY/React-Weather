@@ -14,13 +14,7 @@ npm start
 
 ```
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit pull requests or open issues for discussion.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Dependencies
 
@@ -37,15 +31,20 @@ npm install react-select-async-paginate
 ## API Resources
 
 https://rapidapi.com/wirefreethought/api/geodb-cities/playground/apiendpoint_b648c05d-eef2-429f-a25a-1f3a743d8a3d
-![alt text](D:\coding\code\react\react-weather-app\src\image-1.png)
-![alt text](D:\coding\code\react\react-weather-app\image-1.png)
+
+![image](https://github.com/user-attachments/assets/41572a48-3ede-454b-a45c-09017c12b8ae)
+![image](https://github.com/user-attachments/assets/bf17fdfb-13c2-4cca-9755-9ceb0e727cca)
+
 https://openweathermap.org/current
 https://openweathermap.org/forecast5
 https://openweathermap.org/price#weather
-![alt text](D:\coding\code\react\react-weather-app\image-2.png)
+![image](https://github.com/user-attachments/assets/f5e9120f-3d18-4cf3-ad79-d6d504d989cb)
+
 https://home.openweathermap.org/api_keys
-![alt text](D:\coding\code\react\react-weather-app\image-3.png)
+![image](https://github.com/user-attachments/assets/c17a08fb-9cd6-43de-ac2d-ee024576ce96)
+
 
 ## Final Output
-![alt text](D:\coding\code\react\react-weather-app\image-4.png)
+![image](https://github.com/user-attachments/assets/d60e7c06-cfd9-41ba-8f59-d0af21e1f29f)
+
  localhost:3000
