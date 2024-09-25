@@ -36,11 +36,15 @@ https://rapidapi.com/wirefreethought/api/geodb-cities/playground/apiendpoint_b64
 ![image](https://github.com/user-attachments/assets/bf17fdfb-13c2-4cca-9755-9ceb0e727cca)
 
 https://openweathermap.org/current
+
 https://openweathermap.org/forecast5
+
 https://openweathermap.org/price#weather
+
 ![image](https://github.com/user-attachments/assets/f5e9120f-3d18-4cf3-ad79-d6d504d989cb)
 
 https://home.openweathermap.org/api_keys
+
 ![image](https://github.com/user-attachments/assets/c17a08fb-9cd6-43de-ac2d-ee024576ce96)
 
 
